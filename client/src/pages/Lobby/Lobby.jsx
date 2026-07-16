@@ -1,55 +1,56 @@
 import "./Lobby.css";
 
-import DashboardLayout from "../../layouts/DashboardLayout";
+import Header from "../../components/Header/Header";
+import Sidebar from "../../components/Sidebar/Sidebar";
 import Button from "../../components/Button/Button";
 
 import { Link } from "react-router-dom";
 
 function Lobby() {
-
     return (
+        <div className="lobby-page">
 
-        <DashboardLayout>
+            <Header username="Иван Иванов" />
 
-            <div className="lobby">
+            <div className="lobby-body">
 
-                <h1>Комната ожидания</h1>
+                <Sidebar />
 
-                <p className="room-code">
-                    Код комнаты
-                </p>
+                <main className="lobby-content">
 
-                <div className="code">
-                    487521
-                </div>
+                    <h1>Комната ожидания</h1>
 
-                <div className="players">
+                    <p className="room-code">
+                        Код комнаты
+                    </p>
 
-                    <h3>Подключившиеся участники</h3>
+                    <div className="code">
+                        487521
+                    </div>
 
-                    <ul>
+                    <div className="players">
 
-                        <li>Иван Иванов</li>
-                        <li>Петр Петров</li>
-                        <li>Анна Смирнова</li>
-                        <li>Мария Орлова</li>
+                        <h3>Подключившиеся участники</h3>
 
-                    </ul>
+                        <ul>
+                            <li>Иван Иванов</li>
+                            <li>Петр Петров</li>
+                            <li>Анна Смирнова</li>
+                            <li>Мария Орлова</li>
+                        </ul>
 
-                </div>
+                    </div>
 
-                <Link to="/quiz">
+                    <Link to="/quiz">
+                        <Button text="Начать квиз" />
+                    </Link>
 
-                    <Button text="Начать квиз"/>
-
-                </Link>
+                </main>
 
             </div>
 
-        </DashboardLayout>
-
+        </div>
     );
-
 }
 
 export default Lobby;
