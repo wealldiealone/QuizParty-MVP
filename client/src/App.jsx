@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import OrganizerDashboard from "./pages/OrganizerDashboard";
-import CreateQuiz from "./pages/CreateQuiz";
-import AddQuestion from "./pages/AddQuestion";
-import Lobby from "./pages/Lobby";
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
+import OrganizerDashboard from "./pages/OrganizerDashboard/OrganizerDashboard";
+import CreateQuiz from "./pages/CreateQuiz/CreateQuiz";
+import AddQuestion from "./pages/AddQuestion/AddQuestion";
+import Lobby from "./pages/Lobby/Lobby";
 import Quiz from "./pages/Quiz";
 import Results from "./pages/Results";
 import ParticipantDashboard from "./pages/ParticipantDashboard";
