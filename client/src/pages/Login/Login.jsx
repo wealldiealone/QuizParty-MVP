@@ -28,8 +28,9 @@ function Login() {
           type="password"
           placeholder="Введите пароль"
         />
-
-        <Button text="Войти" />
+        <Link to="/dashboard" className="button-link"> 
+            <Button text="Войти" />
+        </Link>
 
         <p className="register-text">
           Нет аккаунта?
