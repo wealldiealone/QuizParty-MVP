@@ -1,0 +1,12 @@
+.custom-card{
+
+    width:430px;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+.register-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+.register-container {
+    width: 520px;
+    background: white;
+    border-radius: 22px;
+    padding: 40px;
+    box-shadow: 0 0 35px rgba(0,0,0,.18);
+}
+
+.logo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.logo span {
+    display: block;
+    width: 170px;
+    height: 4px;
+    background: #5a8dff;
+    margin: 0 auto;
+    margin-top: -5px;
+    border-radius: 10px;
+}
+
+.register-title {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #2d3340;
+}
+
+.register-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.register-form input {
+    height: 46px;
+    border: 1px solid #d7d7d7;
+    border-radius: 12px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.register-form input:focus {
+    border-color: #6c63ff;
+}
+
+.role-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+.role-btn {
+    width: 46%;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    background: #6c63ff;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.role-btn:hover {
+    background: #584ff2;
+}
+
+.role-btn.active {
+    background: #584ff2;
+}
+
+.register-btn {
+    width: 220px;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 12px;
+    background: #6c63ff;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.register-btn:hover {
+    background: #584ff2;
+}
+
+.login-section {
+    margin-top: 40px;
+}
+
+.login-section p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.login-btn {
+    width: 180px;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    background: #6c63ff;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login-btn:hover {
+    background: #584ff2;
+}
